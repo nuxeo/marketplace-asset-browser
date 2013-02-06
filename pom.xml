@@ -38,8 +38,13 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.nuxeo.asset.browser</groupId>
-        <artifactId>nuxeo-asset-browser</artifactId>
+        <groupId>org.nuxeo.dam</groupId>
+        <artifactId>nuxeo-asset-browser-jsf</artifactId>
+        <version>${nuxeo.addons.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.nuxeo.dam</groupId>
+        <artifactId>nuxeo-asset-browser-theme</artifactId>
         <version>${nuxeo.addons.version}</version>
       </dependency>
       <dependency>
@@ -82,9 +87,9 @@
   </repositories>
 
   <scm>
-    <connection>scm:git:git://github.com/nuxeo/nuxeo-asset-browser.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com:nuxeo/nuxeo-asset-browser.git</developerConnection>
-    <url>https://github.com/nuxeo/nuxeo-asset-browser</url>
+    <connection>scm:git:git://github.com/nuxeo/marketplace-asset-browser.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com:nuxeo/marketplace-asset-browser.git</developerConnection>
+    <url>https://github.com/nuxeo/marketplace-asset-browser</url>
   </scm>
 
 </project>

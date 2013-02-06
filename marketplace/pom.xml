@@ -47,8 +47,12 @@
 
     <!-- Additional bundles to be deployed by the MP -->
     <dependency>
-      <groupId>org.nuxeo.asset.browser</groupId>
-      <artifactId>nuxeo-asset-browser</artifactId>
+      <groupId>org.nuxeo.dam</groupId>
+      <artifactId>nuxeo-asset-browser-jsf</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.nuxeo.dam</groupId>
+      <artifactId>nuxeo-asset-browser-theme</artifactId>
     </dependency>
   </dependencies>
 
