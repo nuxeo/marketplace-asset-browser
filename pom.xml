@@ -55,7 +55,7 @@
       </dependency>
       <dependency>
         <groupId>org.nuxeo.marketplace.asset.browser</groupId>
-        <artifactId>nuxeo-asset-browser</artifactId>
+        <artifactId>marketplace-asset-browser</artifactId>
         <version>${marketplace.asset.browser.version}</version>
         <type>zip</type>
       </dependency>
