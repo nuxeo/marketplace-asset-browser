@@ -89,7 +89,8 @@
                 file2="${outdir}/nuxeo-distribution-cap-${nuxeo.distribution.version}.zip"
                 includesfile="${outdir}/includes"
                 excludesfile="${outdir}/excludesfile"
-                patternsetid="asset.browser.versus.cap">
+                patternsetid="asset.browser.versus.cap"
+                ignoreContentPattern=".*jar$">
     </nx:zipdiff>
     <unzip src="${outdir}/nxr-${marketplace.asset.browser.version}.zip"
            dest="${outdir}/marketplace/install">
