@@ -1,4 +1,4 @@
-<project name="nuxeo-assembly"
+<project name="asset-browser-assembly"
          default="build"
          xmlns:nx="urn:nuxeo-build"
          xmlns:artifact="urn:nuxeo-artifact">
@@ -18,7 +18,8 @@
     <artifact:nuxeo-expand includeTestScope="true"
                            groupPrefixes="org.nuxeo,com.nuxeo" />
     <!-- For Nuxeo IDE being able to use that distribution as a SDK -->
-    <artifact:print output="${outdir}/artifacts-asset-browser.properties" mode="sdk" />
+    <artifact:print output="${outdir}/artifacts-asset-browser.properties"
+                    mode="sdk" />
     <artifact:print output="${outdir}/test-artifacts-asset-browser.properties"
                     mode="sdk"
                     scopes="test" />
@@ -136,7 +137,6 @@
     <zip destfile="${outdir}/${maven.project.artifactId}-${marketplace.asset.browser.version}.zip"
          basedir="${outdir}/marketplace" />
     <artifact:attach file="${outdir}/${maven.project.artifactId}-${marketplace.asset.browser.version}.zip"
-                     target="${maven.project.groupId}:${maven.project.artifactId}"
                      type="zip" />
   </target>
 
